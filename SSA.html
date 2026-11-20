@@ -1,0 +1,615 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>404: FOUND | A Brief Guide to the Internet and the Web</title>
+<style>@font-face {
+  font-family: "Determination Mono";
+  src: url("DeterminationMonoWebRegular-Z5oq.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: "Determination Mono", monospace;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  color: #e9e8e3;
+  background: #10131b;
+}
+
+.page {
+  display: grid;
+  grid-template-columns: minmax(0, 3fr) minmax(280px, 1fr);
+  gap: 16px;
+  height: 100vh;
+  padding: 16px;
+}
+
+.main,
+.sidebar {
+  min-height: 0;
+  overflow-y: auto;
+  padding: 22px;
+  border: 1px solid #596273;
+  border-radius: 12px;
+  scrollbar-color: #8995a8 #202838;
+  scrollbar-width: thin;
+}
+
+.main {
+  background:
+    
+    url("er.gif") center / cover;
+}
+
+.sidebar {
+  padding: 18px;
+  background:
+   
+    url("birg.gif") center / cover;
+}
+
+.section-list {
+  display: grid;
+  gap: 10px;
+}
+
+details {
+  overflow: hidden;
+  border: 1px solid #46536a;
+  border-radius: 8px;
+  background: rgba(31, 40, 56, .82);
+}
+
+summary {
+  padding: 14px 16px;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+  list-style: none;
+}
+
+summary::-webkit-details-marker { display: none; }
+summary::after {
+  content: "+";
+  float: right;
+  color: #c7d2e3;
+  font-size: 1.2rem;
+}
+
+details[open] summary::after { content: "−"; }
+summary:hover { background: rgba(116, 137, 166, .16); }
+
+.section-content {
+  padding: 0 18px 16px;
+  color: #d9dee7;
+  line-height: 1.7;
+}
+
+.section-content::after {
+  display: block;
+  clear: both;
+  content: "";
+}
+
+.section-content h2,
+.credits h2,
+.sidebar h2,
+.sidebar h3 {
+  color: white;
+}
+
+.section-content p { margin: 10px 0; }
+.hero { text-align: center; }
+.hero h1 {
+  margin: 14px 0 8px;
+  color: white;
+  font-size: clamp(2rem, 5vw, 3.2rem);
+  letter-spacing: 5px;
+}
+
+.hero-banner,
+.sidebar-banner,
+.sidebar-footer {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.decoration-gif {
+  width: 180px;
+  max-width: 40%;
+  height: auto;
+}
+
+.section-image {
+  float: left;
+  width: 150px;
+  height: auto;
+  margin: 4px 15px 10px 0;
+}
+
+.credits {
+  margin-top: 18px;
+  padding: 16px;
+  border-top: 1px solid #596273;
+}
+
+.credits h2,
+.sidebar h2 { letter-spacing: 2px; }
+
+.sidebar h3 {
+  margin: 14px 0 7px;
+  font-size: 1rem;
+}
+
+.sidebar p { line-height: 1.6; }
+.sidebar-footer {
+  max-width: 500px;
+  margin: 12px auto 0;
+}
+
+.page-footer { text-align: center; }
+.bottom-marquee {
+  padding: 8px 0;
+  color: white;
+  background: #10131b;
+}
+
+@media (max-width: 800px) {
+  .page {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    min-height: 100vh;
+  }
+
+  .main { overflow: visible; }
+  .sidebar { max-height: 65vh; }
+}</style>
+<meta content="An interactive field guide to the Internet and the World Wide Web." name="description"/><link href="custom.css" rel="stylesheet"/></head>
+<body>
+<div aria-hidden="true" class="scroll-progress"><span id="scroll-progress-fill"></span></div>
+<div aria-hidden="true" class="custom-cursor"><span class="cursor-ring"></span><span class="cursor-dot"></span><span class="cursor-label">VIEW</span></div>
+<div aria-hidden="true" class="hover-preview"><img alt="" src=""/><span></span></div>
+<div class="page">
+<header class="site-header" id="top">
+<a aria-label="404 Found, back to top" class="brand magnetic" data-cursor="TOP" href="#top">
+<span class="brand-mark">404</span>
+<span class="brand-copy"><b>FOUND</b><small>AN INTERNET FIELD GUIDE</small></span>
+</a>
+<nav aria-label="Primary navigation" class="top-nav">
+<a class="nav-link magnetic" data-cursor="EXPLORE" href="#guide">Explore guide <span>↘</span></a>
+<a class="nav-link magnetic" data-cursor="TIMELINE" href="#timeline">Timeline <span>↘</span></a>
+</nav>
+<div class="header-status"><span class="status-dot"></span><span>NETWORK STATUS</span><b>ONLINE</b></div>
+</header>
+<div class="page-grid">
+<main class="main" id="guide">
+<div class="main-intro-bar">
+<span class="eyebrow"><i></i> DIGITAL FIELD NOTES <b>VOL. 01</b></span>
+<span class="intro-coordinates">14° 35' N  /  120° 59' E</span>
+</div>
+<div class="section-list-heading">
+<div><span class="eyebrow">THE INDEX</span><h2>Explore the network<span>.</span></h2></div>
+<span class="index-count">00 — 11 <i> / 12</i></span>
+</div>
+<div class="section-list">
+<details class="chapter-card" id="chapter-00" open="">
+<summary aria-label="00 | Welcome to 404: FOUND" data-cursor="OPEN" data-preview="1000016968.png">
+       00 | Welcome to 404: FOUND
+      </summary>
+<div class="section-content hero" id="welcome">
+<img alt="404: Found website banner" class="hero-banner" src="1000016968.png"/>
+<img alt="Animated website decoration" class="decoration-gif" src="al.gif"/>
+<h1>
+        404: FOUND
+       </h1>
+<p>
+<i>
+<small>
+          404: Found turns the familiar “404 Not Found” error into a celebration of discovery. Instead of ending at a missing page, this website invites you to find the story behind the Internet and the World Wide Web. Explore where they began, how they work, and why they continue to shape everyday life.
+         </small>
+</i>
+</p>
+<div aria-label="Guide overview" class="hero-stats">
+<div class="stat-card stat-card-large"><span class="stat-label">THE GUIDE</span><strong>12</strong><small>chapters to explore</small><span class="stat-index">01 / 12</span></div>
+<div class="stat-card"><span class="stat-label">THE TIMELINE</span><strong>60s—NOW</strong><small>milestones across eras</small></div>
+<div class="stat-card stat-card-accent"><span class="stat-label">THE BIG IDEA</span><strong>ONE</strong><small>connected network of networks</small></div>
+</div>
+<div class="hero-actions">
+<a class="primary-cta magnetic" data-cursor="START" href="#chapter-01">Start exploring <span>↗</span></a>
+<span class="hero-hint">SCROLL TO DISCOVER <b>↓</b></span>
+</div>
+<button aria-label="Drag this decorative note around the welcome panel" class="drag-sticker" data-cursor="DRAG" type="button">
+<span>404 / FOUND</span><b>STAY CURIOUS</b><small>DRAG ME ↗</small>
+</button>
+</div>
+</details>
+<details class="chapter-card" id="chapter-01">
+<summary aria-label="01 | What Is the Internet?" data-cursor="OPEN" data-preview="o.gif">
+       01 | What Is the Internet?
+      </summary>
+<div class="section-content">
+<h2>
+        01. What Is the Internet?
+       </h2>
+<img alt="Animated Internet illustration" class="section-image" src="o.gif"/>
+<p>
+        The Internet is a worldwide network of connected computer networks. These networks communicate using shared rules called protocols, allowing devices to exchange information even when they are far apart. Computers, phones, servers, game consoles, and many other devices can use the Internet to send and receive data.
+       </p>
+<p>
+        The Internet is the global system of interconnected computer networks that uses the Internet protocol suite (TCP/IP) to communicate between networks and devices. It is a network of networks that comprises private, public, academic, business, and government networks of local to global scope, linked by electronic, wireless, and optical networking technologies. The Internet carries a vast range of information services and resources, such as the interlinked hypertext documents and applications of the World Wide Web (WWW), electronic mail, discussion groups, internet telephony, streaming media and file sharing.
+       </p>
+<p>
+        The Internet is not one giant computer in one location. It is a distributed system made up of many independently operated networks. If one route becomes unavailable, data may be able to travel along another route. This design helps the network connect people and services across the world.
+       </p>
+</div>
+</details>
+<details class="chapter-card" id="chapter-02">
+<summary aria-label="02 | The Internet Is Not the World Wide Web" data-cursor="OPEN" data-preview="birg.gif">
+       02 | The Internet Is Not the World Wide Web
+      </summary>
+<div class="section-content">
+<h2>
+        02. The Internet Is Not the World Wide Web
+       </h2>
+<p>
+        People often use “Internet” and “the Web” as if they mean the same thing, but they are different. The Internet is the underlying network infrastructure. The World Wide Web, usually called the Web or WWW, is a system of linked pages and resources that uses the Internet to work.
+       </p>
+<p>
+        Think of the Internet as a road network and the Web as one kind of destination you can reach using those roads. Email, online gaming, file transfers, and voice calls can also use the Internet without being ordinary web pages. The Web is one of the most visible services that runs on top of it.
+       </p>
+<p>
+        A web browser, such as Firefox, Chrome, Safari, or Edge, lets people visit websites. A browser can request a page from a web server, receive its files, and display the result. Links connect pages together, making it possible to move from one source to another with a click.
+       </p>
+</div>
+</details>
+<details class="chapter-card" id="chapter-03">
+<summary aria-label="03 | A Short History of the Internet" data-cursor="OPEN" data-preview="er.gif">
+       03 | A Short History of the Internet
+      </summary>
+<div class="section-content">
+<h2>
+        03. A Short History of the Internet
+       </h2>
+<p>
+        The internet began in the 1960s as a military research project of the U.S. Department of Defense. Its original purpose was to connect computers so they could share information even if one computer or part of the network stopped working. Over time, scientists and researchers connected their computer networks to share knowledge and information. Eventually, other countries joined these networks, creating an international system of connected computers. Today, the internet is widely used for communication, education, research, and sharing information around the world.
+       </p>
+<p>
+        In the 1970s, researchers worked on protocols that could connect different kinds of networks. The Transmission Control Protocol and Internet Protocol, known together as TCP/IP, became central to this effort. On January 1, 1983, ARPANET adopted TCP/IP, a milestone often associated with the growth of the modern Internet.
+       </p>
+<p>
+        During the 1980s, academic and research networks expanded. The Domain Name System, or DNS, made it easier for people to use memorable domain names instead of remembering numerical IP addresses. As networking spread, the Internet became an increasingly important tool for research and communication.
+       </p>
+<p>
+        In the 1990s, access expanded beyond specialist research communities. The Internet gradually became available to more schools, businesses, households, and individuals. The rise of graphical web browsers made online information easier to explore, helping the Web become a familiar part of everyday life.
+       </p>
+</div>
+</details>
+<details class="chapter-card" id="chapter-04">
+<summary aria-label="04 | The Birth of the World Wide Web" data-cursor="OPEN" data-preview="al.gif">
+       04 | The Birth of the World Wide Web
+      </summary>
+<div class="section-content">
+<h2>
+        04. The Birth of the World Wide Web
+       </h2>
+<p>
+        The World Wide Web was proposed by British computer scientist Tim Berners-Lee in 1989 while he was working at CERN, a European particle physics research organization. His idea was to make it easier for researchers to share documents and connect information through hyperlinks.
+       </p>
+<p>
+        The Web's basic technologies include HTML, which structures web documents; HTTP, which defines how browsers and servers exchange web resources; and URLs, which identify the locations of those resources. Together, these ideas made it possible to create pages that link to other pages across different computers.
+       </p>
+<p>
+        The first website explained the World Wide Web project itself. As web servers and browsers became more widely available, more people began publishing and visiting pages. In 1993, the Mosaic browser helped popularize the Web with a more accessible graphical experience. The Web continued to evolve from simple documents into interactive services, online communities, video platforms, and web applications.
+       </p>
+</div>
+</details>
+<details class="chapter-card" id="chapter-05">
+<summary aria-label="05 | How Does Opening a Website Work?" data-cursor="OPEN" data-preview="er.gif">
+       05 | How Does Opening a Website Work?
+      </summary>
+<div class="section-content">
+<h2>
+        05. How Does Opening a Website Work?
+       </h2>
+<p>
+        When you type a web address into your browser, several steps happen behind the scenes. First, the browser identifies the domain name in the address. The Domain Name System helps find the IP address associated with that domain, so the browser knows which server to contact.
+       </p>
+<p>
+        The browser then connects to the server and sends a request for the page. For a secure website, HTTPS helps protect the communication by encrypting data in transit. The server responds with files and information, which may include HTML, images, audio, video, and other resources.
+       </p>
+<p>
+        The browser reads the HTML and uses it to build the page's structure. If the page references images, the browser requests those files too. The browser then displays the available content. A page can sometimes appear in stages because different files may arrive at different times or because the server needs time to respond.
+       </p>
+<p>
+        A simple way to remember the process is: address, find the server, send a request, receive the response, and display the page. The actual process involves more details, but these steps explain the basic exchange between a browser and a web server.
+       </p>
+</div>
+</details>
+<details class="chapter-card" id="chapter-06">
+<summary aria-label="06 | The Parts of a Web Address" data-cursor="OPEN" data-preview="birg.gif">
+       06 | The Parts of a Web Address
+      </summary>
+<div class="section-content">
+<h2>
+        06. The Parts of a Web Address
+       </h2>
+<p>
+        A URL, or Uniform Resource Locator, is a web address. Consider this example:
+        <b>
+         https://www.example.com/articles/page.html
+        </b>
+        . The “https” part identifies the protocol used to access the resource. The domain name, “www.example.com,” identifies the site. The path, “/articles/page.html,” points to a particular resource on that site.
+       </p>
+<p>
+        Some URLs also contain a query string, often introduced by a question mark, which can carry information such as search terms or page settings. A fragment, introduced by a number sign, can point to a particular section within a page. Not every URL contains all these parts.
+       </p>
+<p>
+        Understanding web addresses can help people spot misspellings, recognize the actual domain they are visiting, and navigate more carefully. A familiar logo or page design is not enough to prove a website is genuine, so check the address before entering personal information.
+       </p>
+</div>
+</details>
+<details class="chapter-card" id="chapter-07">
+<summary aria-label="07 | HTML: The Structure Behind a Web Page" data-cursor="OPEN" data-preview="o.gif">
+       07 | HTML: The Structure Behind a Web Page
+      </summary>
+<div class="section-content">
+<h2>
+        07. HTML: The Structure Behind a Web Page
+       </h2>
+<p>
+        HTML stands for HyperText Markup Language. It uses elements, usually written with tags, to organize information into headings, paragraphs, lists, tables, images, and links. For example,
+        <code>
+         &lt;h1&gt;
+        </code>
+        marks a main heading, while
+        <code>
+         &lt;p&gt;
+        </code>
+        marks a paragraph.
+       </p>
+<p>
+        HTML describes the meaning and structure of content. CSS is commonly used to control visual presentation, and JavaScript can add behavior and interactivity. However, a useful web page can still be made with HTML alone. Without CSS, the browser generally displays content using its default styles, which is useful for learning the structure of a page.
+       </p>
+<p>
+        This website follows that basic approach. Its sections, headings, paragraphs, images, and tables are made with HTML elements. Images are used to support the text and illustrate key ideas.
+       </p>
+</div>
+</details>
+<details class="chapter-card" id="chapter-08">
+<summary aria-label="08 | Search Engines and Finding Information" data-cursor="OPEN" data-preview="al.gif">
+       08 | Search Engines and Finding Information
+      </summary>
+<div class="section-content">
+<h2>
+        08. Search Engines and Finding Information
+       </h2>
+<p>
+        Search engines help people discover pages across the Web. Many search engines use automated programs, often called crawlers, to find publicly accessible pages. They analyze and index information so that results can be returned when someone searches for a topic.
+       </p>
+<p>
+        Search results are not a perfect list of truth. A page may appear because it is relevant to the search terms, popular, recent, or useful according to the search engine's systems. Results can vary, and sponsored results may appear alongside ordinary listings.
+       </p>
+<p>
+        Good research means looking beyond the first result. Check who published the information, when it was updated, what evidence it provides, and whether other reliable sources agree. A page that looks professional can still contain errors, so critical thinking remains important even when search tools are convenient.
+       </p>
+</div>
+</details>
+<details class="chapter-card" id="chapter-09">
+<summary aria-label="09 | What the Internet Makes Possible" data-cursor="OPEN" data-preview="er.gif">
+       09 | What the Internet Makes Possible
+      </summary>
+<div class="section-content">
+<h2>
+        09. What the Internet Makes Possible
+       </h2>
+<p>
+        The Internet makes communication faster and more flexible. People can exchange messages, join video calls, share files, and collaborate across long distances. Families can stay in touch, while students and teachers can share learning materials beyond the classroom.
+       </p>
+<p>
+        It also provides access to digital libraries, tutorials, public information, news, creative work, and communities built around shared interests. Businesses can reach customers online, and people can publish their own writing, artwork, music, or projects without needing a traditional publisher.
+       </p>
+<p>
+        These opportunities depend on access, digital skills, and reliable information. Not everyone has the same quality of connection or the same level of access to devices. The Internet can connect people, but communities still need to work toward making that access safer, fairer, and more inclusive.
+       </p>
+</div>
+</details>
+<details class="chapter-card" id="chapter-10">
+<summary aria-label="10 | The Problems We Should Not Ignore" data-cursor="OPEN" data-preview="birg.gif">
+       10 | The Problems We Should Not Ignore
+      </summary>
+<div class="section-content">
+<h2>
+        10. The Problems We Should Not Ignore
+       </h2>
+<p>
+        The Internet also comes with risks. False information can spread quickly, personal information can be collected or exposed, and online spaces can be used for scams, harassment, or impersonation. Some websites and messages are designed to pressure people into clicking links or sharing sensitive details.
+       </p>
+<p>
+        Protect your accounts by using strong, unique passwords and enabling additional account security when available. Think carefully before posting personal details, and check links and website addresses before opening them. Keep devices and software updated, and ask a trusted adult or knowledgeable person for help when something online feels suspicious or uncomfortable.
+       </p>
+<p>
+        Be respectful when communicating with others. Behind every profile is a person, and messages can have real effects. Before sharing a claim, image, or story, pause to consider whether it is accurate, appropriate, and fair to the people involved.
+       </p>
+</div>
+</details>
+<details class="chapter-card" id="chapter-11">
+<summary aria-label="11 | A Short Reflection on the Internet" data-cursor="OPEN" data-preview="1000016977.png">
+       11 | A Short Reflection on the Internet
+      </summary>
+<div class="section-content">
+<h2>
+        11. A Short Reflection on the Internet
+       </h2>
+<p>
+        The Internet has become part of daily life because it gives us ways to learn, communicate, create, and explore. As students, we can use it to research school topics, find explanations, work with classmates, and discover ideas beyond our textbooks. It also gives people opportunities to share their skills and express themselves.
+       </p>
+<p>
+        But having access to information is not the same as understanding it. We still need to question what we read, compare sources, respect privacy, and manage our time. Technology can help us accomplish more, but it cannot replace careful thinking or responsible decisions.
+       </p>
+<p>
+        The Internet is important in our daily lives because it helps us find information easily and learn new things. As students, we can use it to research our school activities, watch educational videos, and communicate with our teachers and classmates. It also helps us stay connected with our family and friends, even when they are far away. Through the Internet, we can enjoy music, movies, games, and other forms of entertainment. However, we should use it properly and avoid spending too much time online. We must also be careful about the information we see and share because not everything on the Internet is true. For me, the Internet is a useful tool that makes our lives easier, as long as we know how to use it wisely.
+       </p>
+</div>
+</details>
+</div>
+<div class="credits">
+<h2>
+      THIS WEBSITE IS MADE BY:
+     </h2>
+<ul>
+<strong>
+        G12 EINSTEIN
+       </strong>
+<li>
+       LARS MIGUEL C. TABAG
+      </li>
+<li>
+       KATHERINE MENDOZA
+      </li>
+<li>
+       CHARLES DWAYNE KALAW
+      </li>
+<li>
+       JANE IRISH CABATAY
+      </li>
+<li>
+       KRISH CHARLENE REYES
+      </li>
+</ul>
+</div>
+<div class="page-footer">
+<hr/>
+<p>
+<b>
+       404: FOUND
+      </b>
+</p>
+<p>
+<small>
+       The page was not lost. You just had to know where to look.
+      </small>
+</p>
+</div>
+</main><aside class="sidebar" id="timeline" style="color: white;">
+<img alt="Timeline banner" class="sidebar-banner" src="1000016969.png"/>
+<hr/>
+<h2>
+     TIMELINE
+    </h2>
+<p>
+<small>
+      A quick journey through the milestones that shaped the Internet and the World Wide Web.
+     </small>
+</p>
+<nav aria-label="Jump to a timeline era" class="era-nav">
+<a href="#era-60s">60s</a><a href="#era-80s">80s</a><a href="#era-90s">90s</a><a href="#era-00s">00s</a><a href="#era-now">NOW</a>
+</nav>
+<hr/>
+<h3 id="era-60s">
+     1960s | The Idea of Connected Networks
+    </h3>
+<p>
+     Researchers explore ways for computers to share information across long distances. Packet switching becomes an important idea: data can be divided into small pieces and sent across a network.
+    </p>
+<hr/>
+<h3>
+     1969 | ARPANET Connects Computers
+    </h3>
+<p>
+     ARPANET, an early packet-switching network, connects computers at research institutions. It becomes a major predecessor to today's Internet. The first attempted message was sent from UCLA to the Stanford Research Institute.
+    </p>
+<hr/>
+<h3 id="era-80s">
+     1983 | TCP/IP Becomes the Standard
+    </h3>
+<p>
+     ARPANET adopts TCP/IP, a set of communication protocols that allows different networks to exchange data. TCP/IP becomes a key foundation of the modern Internet.
+    </p>
+<hr/>
+<h3>
+     1989 | The Web Is Proposed
+    </h3>
+<p>
+     Tim Berners-Lee, working at CERN, proposes a system for sharing information through linked documents. This idea develops into the World Wide Web. The Internet already exists, but the Web offers a new way to use it.
+    </p>
+<hr/>
+<h3 id="era-90s">
+     1990 | Browser and Server
+    </h3>
+<p>
+     Berners-Lee creates the first web browser and web server. The first website explains the Web project and how people can use it to access information.
+    </p>
+<hr/>
+<h3>
+     1991 | The Web Goes Public
+    </h3>
+<p>
+     The World Wide Web becomes available beyond its original project community. More people can begin exploring linked pages and learning how to publish information online.
+    </p>
+<hr/>
+<h3>
+     1993 | Mosaic Makes Browsing Easier
+    </h3>
+<p>
+     The Mosaic web browser helps bring the Web to a wider audience with a more approachable graphical interface and support for displaying images alongside text.
+    </p>
+<hr/>
+<h3>
+     Mid-1990s | The Web Expands
+    </h3>
+<p>
+     More homes, schools, businesses, and organizations go online. Websites, search tools, online shops, and email services become increasingly familiar parts of everyday life.
+    </p>
+<hr/>
+<h3 id="era-00s">
+     2000s | More Interactive Websites
+    </h3>
+<p>
+     Websites increasingly let visitors contribute, share, comment, upload, and collaborate. Blogs, video-sharing platforms, and social networks change how people create and consume information.
+    </p>
+<hr/>
+<h3>
+     2007 Onward | The Web Goes Mobile
+    </h3>
+<p>
+     Smartphones and mobile data make online services accessible while people are away from computers. Websites adapt to smaller screens, and apps become another common way to access Internet services.
+    </p>
+<hr/>
+<h3 id="era-now">
+     Today | An Always-Evolving Web
+    </h3>
+<p>
+     The Internet supports learning, communication, entertainment, business, and public services. Cloud computing, streaming, online collaboration, and AI-powered tools continue to change how people use connected technology.
+    </p>
+<hr/>
+<p>
+<b>
+      Remember:
+     </b>
+     The Internet is the global network infrastructure. The World Wide Web is one service that runs on it. They are connected, but they are not the same thing.
+    </p>
+<hr/>
+<img alt="Decorative timeline image" class="sidebar-footer" src="1000016977.png"/>
+</aside></div>
+</div>
+<div aria-label="Decorative scrolling ASCII artwork" class="bottom-marquee"><div class="marquee-track"><pre>o o o o o o o . . .   ______________________________ _____=======_||____
+o      _____           ||                            | |                 |
+.][__n_n_|DD[  ====_____  |                            | |                 |
+&gt;(________|__|_[_________]_|____________________________|_|_________________|
+_/oo OOOOO oo\`  ooo   ooo  'o!o!o                  o!o!o\` 'o!o         o!o\`</pre><pre aria-hidden="true">o o o o o o o . . .   ______________________________ _____=======_||____
+o      _____           ||                            | |                 |
+.][__n_n_|DD[  ====_____  |                            | |                 |
+&gt;(________|__|_[_________]_|____________________________|_|_________________|
+_/oo OOOOO oo\`  ooo   ooo  'o!o!o                  o!o!o\` 'o!o         o!o\`</pre></div></div>
+<script defer="True" src="interactions.js"></script></body>
+</html>
